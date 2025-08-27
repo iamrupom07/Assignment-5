@@ -9,7 +9,33 @@
 </head>
 <body class="bg-[#F2FBF6] text-gray-800">
 
+  <header class="w-full border-b border-gray-200 bg-white">
+    <div class="container mx-auto px-4 flex h-16 items-center justify-between">
+  
+      <div class="flex items-center gap-3">
+        <img src="../assets/logo.png" class="h-8 w-8" alt="Logo" />
+        <span class="font-bold text-emerald-700">Emergency Service</span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-1 font-bold" id="count">
+          <span id="heartCount">0</span>
+          <img src="../assets/heart.png" class="h-5 w-5" />  
+        </div>
+        <div class="flex items-center gap-1 font-bold" id="count">
+          <span id="coinCount">100</span>
+          <img src="../assets/coin.png" class="h-5 w-5" />
+        
+        </div>
+        <button class="btn btn-outline !py-1" id="copy">
+          <span id="copyCount">0</span> Copy
+        </button>
+      </div>
+    </div>
+  </header>
+
  
+
 
   <script src="script.js"></script>
 </body>

@@ -1,0 +1,104 @@
+:root {
+  --bg: #F2FBF6;
+  --text: #1f2937;
+  --line: #e5e7eb;
+  --primary: #059669;
+  --success: #16a34a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color: var(--text);
+  background: var(--bg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 18px;
+}
+
+/* ---------- Navbar ---------- */
+header {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+header .container {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.brand {
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pill img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Copy button styled as solid green */
+#copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--success);
+  color: #fff;
+  border: 1px solid var(--success);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#copy:hover {
+  background: #15803d;
+  border-color: #15803d;
+}
