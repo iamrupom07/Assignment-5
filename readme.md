@@ -2,7 +2,7 @@
 
 ---
 
-## ✅ Answer Section (for Readme)
+## ✅ Answer Section
 
 ### 1. Difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**
 
