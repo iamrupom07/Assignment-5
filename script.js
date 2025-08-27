@@ -139,7 +139,23 @@ function handleCall(name, number) {
   renderHistory();
 }
 
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-action]');
+  if (!btn) return;
+  const card = btn.closest('[data-card]');
+  const name = card?.getAttribute('data-name');
+  const number = card?.getAttribute('data-number');
+  const action = btn.getAttribute('data-action');
 
+  if (action === 'like') handleLike();
+  if (action === 'copy') handleCopy(number);
+  if (action === 'call') handleCall(name, number);
+});
+
+clearHistoryBtn.addEventListener('click', () => {
+  state.history = [];
+  renderHistory();
+});
 
 renderNav();
 renderCards();
