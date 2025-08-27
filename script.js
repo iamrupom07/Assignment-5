@@ -1,15 +1,15 @@
 const CALL_COST = 20;
 
 const cards = [
-  { id: 1, name: 'National Emergency Number', subtitle: 'National Emergency', number: '999', badge: 'All', icon: '../assets/emergency.png' },
-  { id: 2, name: 'Police Helpline Number', subtitle: 'Police', number: '999', badge: 'Police', icon: '../assets/police.png' },
-  { id: 3, name: 'Fire Service Number', subtitle: 'Fire Service', number: '999', badge: 'Fire', icon: '../assets/fire-service.png' },
-  { id: 4, name: 'Ambulance Service', subtitle: 'Ambulance', number: '1994-999999', badge: 'Health', icon: '../assets/ambulance.png' },
-  { id: 5, name: 'Women & Child Helpline', subtitle: 'Women & Child Helpline', number: '109', badge: 'Help', icon: '../assets/emergency.png' },
-  { id: 6, name: 'Anti-Corruption Helpline', subtitle: 'Anti-Corruption', number: '106', badge: 'Govt.', icon: '../assets/logo-dark.png' },
-  { id: 7, name: 'Electricity Helpline', subtitle: 'Electricity Outage', number: '16216', badge: 'Electricity', icon: '../assets/logo-dark.png' },
-  { id: 8, name: 'Brac Helpline', subtitle: 'Brac', number: '16465', badge: 'NGO', icon: '../assets/brac.png' },
-  { id: 9, name: 'Bangladesh Railway Helpline', subtitle: 'Bangladesh Railway', number: '163', badge: 'Travel', icon: '../assets/Bangladesh-Railway.png' }
+  { id: 1, name: 'National Emergency Number', subtitle: 'National Emergency', number: '999', badge: 'All', icon: './assets/emergency.png' },
+  { id: 2, name: 'Police Helpline Number', subtitle: 'Police', number: '999', badge: 'Police', icon: './assets/police.png' },
+  { id: 3, name: 'Fire Service Number', subtitle: 'Fire Service', number: '999', badge: 'Fire', icon: './assets/fire-service.png' },
+  { id: 4, name: 'Ambulance Service', subtitle: 'Ambulance', number: '1994-999999', badge: 'Health', icon: './assets/ambulance.png' },
+  { id: 5, name: 'Women & Child Helpline', subtitle: 'Women & Child Helpline', number: '109', badge: 'Help', icon: './assets/emergency.png' },
+  { id: 6, name: 'Anti-Corruption Helpline', subtitle: 'Anti-Corruption', number: '106', badge: 'Govt.', icon: './assets/logo-dark.png' },
+  { id: 7, name: 'Electricity Helpline', subtitle: 'Electricity Outage', number: '16216', badge: 'Electricity', icon: './assets/logo-dark.png' },
+  { id: 8, name: 'Brac Helpline', subtitle: 'Brac', number: '16465', badge: 'NGO', icon: './assets/brac.png' },
+  { id: 9, name: 'Bangladesh Railway Helpline', subtitle: 'Bangladesh Railway', number: '163', badge: 'Travel', icon: './assets/Bangladesh-Railway.png' }
 ];
 
 const state = {
